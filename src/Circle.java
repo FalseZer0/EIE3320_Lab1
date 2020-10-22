@@ -1,4 +1,3 @@
-import java.awt.*;
 import java.awt.geom.Ellipse2D;
 import java.io.BufferedReader;
 import java.io.IOException;

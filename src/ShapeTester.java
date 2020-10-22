@@ -6,7 +6,7 @@ public class ShapeTester {
         while (true) {
             display();
             try {
-                menu();
+                selectShape();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -23,22 +23,21 @@ public class ShapeTester {
         System.out.println("**************************************");
     }
 
-    public static void menu() throws IOException {
+    public static void selectShape() throws IOException {
         Scanner scanner = new Scanner(System.in);
         char in = scanner.next().charAt(0);
-        Shape s;
         switch (in) {
             case 'x':
                 System.exit(1);
                 break;
             case 'c':
-                s = new Circle();
+                new Circle();
                 break;
             case 's':
-                s = new Square();
+                new Square();
                 break;
             case 'r':
-                s = new Rectangle();
+                new Rectangle();
                 break;
             default:
                 System.out.println("Invalid input!");
