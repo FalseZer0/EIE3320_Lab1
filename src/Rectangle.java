@@ -1,3 +1,6 @@
+//Seksembayev Kairat
+//18078689D
+//IntelliJ IDEA Community Edition 2020.1.3
 import java.awt.geom.Rectangle2D;
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,7 +13,7 @@ public class Rectangle extends Shape implements Drawable {
     @Override
     public void draw() {
         Canvas canvas = Canvas.getCanvas();
-        canvas.draw(this, "blue", new Rectangle2D.Float(100, 0, width, length));
+        canvas.draw(this, "blue", new Rectangle2D.Float(150, 0,length , width ));
     }
 
     public Rectangle(float length, float width) {
@@ -41,12 +44,12 @@ public class Rectangle extends Shape implements Drawable {
 
     @Override
     public void computeArea() {
-        area = (float) (width * length);
+        area =  (width * length);
     }
 
     @Override
     public void computePerimeter() {
-        perimeter = (float) (2 * (width + length));
+        perimeter = (2 * (width + length));
     }
 
     @Override

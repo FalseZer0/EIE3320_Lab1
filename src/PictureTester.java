@@ -1,3 +1,6 @@
+//Seksembayev Kairat
+//18078689D
+//IntelliJ IDEA Community Edition 2020.1.3
 public class PictureTester {
     public static void main(String[] args) {
         Picture p = new Picture();

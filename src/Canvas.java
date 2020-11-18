@@ -1,3 +1,6 @@
+//Seksembayev Kairat
+//18078689D
+//IntelliJ IDEA Community Edition 2020.1.3
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.Ellipse2D;

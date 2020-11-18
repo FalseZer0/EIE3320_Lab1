@@ -1,9 +1,15 @@
+//Seksembayev Kairat
+//18078689D
+//IntelliJ IDEA Community Edition 2020.1.3
+import javax.swing.*;
 import java.io.IOException;
 import java.util.Scanner;
 
 public class ShapeTester {
     public static void main(String[] args) {
+
         while (true) {
+            initGUI();
             display();
             try {
                 selectShape();
@@ -12,7 +18,14 @@ public class ShapeTester {
             }
         }
     }
-
+    public static void initGUI(){
+        JFrame frame = new Frame();
+        frame.setTitle("GUI lab1");
+        frame.setLocationRelativeTo(null);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(500,300);
+        frame.setVisible(true);
+    }
     public static void display() {
         System.out.println("**************************************");
         System.out.println("* Please choose one the followings   *");

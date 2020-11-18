@@ -1,4 +1,8 @@
+//Seksembayev Kairat
+//18078689D
+//IntelliJ IDEA Community Edition 2020.1.3
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Picture {
     ArrayList<Shape> shapes;
@@ -7,7 +11,7 @@ public class Picture {
         shapes = new ArrayList<Shape>(100);
     }
 
-    public void addShape(Shape s) {
+    void addShape(Shape s) {
         shapes.add(s);
     }
 
